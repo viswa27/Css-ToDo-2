@@ -113,7 +113,7 @@ span {
 
 .popup {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 40%;
   right: 40%;
   background-color: #fff;
@@ -168,6 +168,7 @@ input[type=checkbox]:checked+label {
 h2 {
   position: relative;
   left: 20px;
+  top: 10px;
   color: #00a5ec;
 }
 
@@ -232,11 +233,14 @@ hr {
   }
 
   .popup {
-    top: 40%;
     left: 20%;
   }
 
   .addt1 {
     width: 80%;
+  }
+  
+  .nav {
+    left: -20%;
   }
 }
