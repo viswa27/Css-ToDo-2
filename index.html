@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body id="main">
+    <navbar>
+        <div class="nav">Task <span>List</span></div>
+    </navbar>
+    <div class="ntask">
+        <button class="add add0"><a href="#popup" id="popup-link">+</a>
+        </button>
+    </div>
+    <div id="popup" class="overlay">
+        <div class="popup">
+            <p class="new-task">Add New Task</p>
+            <hr>
+            <input type="Task" name="New Task" id="new-task" placeholder="Enter a Task"><br>
+            <button class="new-button">+ Add Task</button>
+            <a class="close" href="#main">&times;</a>
+        </div>
+    </div>
+    <div class="alltask">
+        <div class="task task1">
+            <a href="./index1.html" id="task1" target="_self">
+                <h2>Trip to New World</h2>
+            </a>
+            <hr>
+            <input type="checkbox" checked>
+            <label class="strike">Wano</label><br>
+            <input type="checkbox">
+            <label class="finish">Laugh Tale</label>
+        </div>
+        <div class="task task2">
+            <h2>My Todo List</h2>
+            <hr>
+            <input type="checkbox" checked>
+            <label class="strike">Music</label><br>
+            <input type="checkbox">
+            <label class="finish">Food</label>
+        </div>
+        <div class="task task2">
+            <h2>Helping Nami</h2>
+            <hr>
+            <input type="checkbox" checked>
+            <label class="strike">Collecting ink</label><br>
+            <input type="checkbox">
+            <label class="finish">Collecting Paper</label>
+        </div>
+        <div class="task task2">
+            <h2>Daily Morning Routine</h2>
+            <hr>
+            <input type="checkbox" checked>
+            <label class="strike">Sailing</label><br>
+            <input type="checkbox">
+            <label class="finish">Meat</label>
+        </div>
+        <div class="task task2">
+            <h2>Helping Robin</h2>
+            <hr>
+            <input type="checkbox" checked>
+            <label class="strike">Collecting Poneglyphs</label><br>
+            <input type="checkbox">
+            <label class="finish">Figure out the Truth</label>
+        </div>
+    </div>
+</body>
+
+</html>
