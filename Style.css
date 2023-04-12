@@ -215,7 +215,38 @@ hr {
   gap: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+  .task {
+    width: 90%;
+  }
+
+  .alltask {
+    left: 10%;
+  }
+
+  .main {
+    width: 80%;
+  }
+
+  .layout {
+    left: 10%;
+  }
+
+  .popup {
+    left: 10%;
+    top: 25%;
+  }
+
+  .addt1 {
+    width: 80%;
+  }
+  
+  .nav {
+    left: -20%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   .task {
     width: 90%;
   }
